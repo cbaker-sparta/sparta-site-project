@@ -14,6 +14,19 @@ h1 {
   padding: 30px;
   color: #303235;
   text-shadow: 1px 1px 2px #42bff4;
+  position: relative;
+  margin-top: 120px;
+}
+
+#logo {
+  width:28px;
+  height:28px;
+  border-radius: 50%
+}
+
+.jumbo-nav {
+  background-image: linear-gradient(to right, aquamarine, beige, darksalmon);
+  border: white 1px solid;
 }
 
 .pag-nav {
@@ -23,11 +36,13 @@ h1 {
 .left {
   background-color: aquamarine;
   border-radius: 5px;
+  border: white 1px solid;
 }
 
 .right {
   background-color: darksalmon;
   border-radius: 5px;
+    border: white 1px solid;
 }
 
 .left img {
