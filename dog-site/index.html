@@ -8,7 +8,8 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <!-- Latest compiled and minified JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript "src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
   </head>
@@ -18,19 +19,19 @@
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+            <button type="button" class="navbar-toggle collapsed nav-color" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only nav-color">Toggle navigation</span>
+              <span class="icon-bar nav-color"></span>
+              <span class="icon-bar nav-color"></span>
+              <span class="icon-bar nav-color"></span>
             </button>
-            <a class="navbar-brand" href="#"><img id="logo" src="images/dog_logo.jpeg" alt="Home logo"></a>
+            <a class="navbar-brand" href="#"><img id="logo1" src="images/dog_logo.jpeg" alt="Home logo"></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li><a href="#">Woof <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Woof</a></li>
               <li><a href="#">Sit</a></li>
               <li><a href="#">Bark</a></li>
             </ul>
@@ -50,45 +51,52 @@
         </ol>
       </nav>
 
-      <div>
-        <h1>Happy Dogs: Get Woof or Die Tryin'</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">
+            <a href="#"><img id="logo2" src="images/dog_logo2.jpg" alt="Logo"></a>
+            
+          </div>
+        </div>
       </div>
-
+      <h1>Happy Dogs: Get Woof or Die Tryin'</h1>
       <div class="jumbotron nav-color">
         <h2>Hello, Dogs!</h2>
-        <p>Do you like Dogs? Dogs are dogs, and we love dogs! Dogs! DOGS! DOOOOOOOOGOGOGOGOGOGOOGOGOOS!!!</p>
+        <p>Do you like Dogs? Dogs are dogs, and we love dogs! Dogs! DOGS! DOOOOOOOGS!!!</p>
         <p><a class="btn btn-primary btn-lg" href="https://www.youtube.com/watch?v=pR4cWz0jyFE" target="_blank" role="button">Become a dog!</a></p>
       </div>
 
       <main>
         <div class="row">
-          <div class="col-md-6 left">
-            <div class="col-md-6">
-              <img class="media-object" src="images/happy_dog1.jpg" alt="happy dog">
+          <div class="col-lg-6 col-md-6 left">
+            <div class="col-lg-6 col-md-6">
               <img class="media-object" src="images/happy_dog2.jpg" alt="happy dog">
-              <img class="media-object" src="images/happy_dog3.jpg" alt="happy dog">
-              <img class="media-object" src="images/happy_dog4.jpeg" alt="happy dog">
+              <img class="media-object hidden-sm hidden-xs" src="images/happy_dog1.jpg" alt="happy dog">
+              <img class="media-object hidden-sm hidden-xs" src="images/happy_dog3.jpg" alt="happy dog">
+              <img class="media-object hidden-sm hidden-xs" src="images/happy_dog4.jpeg" alt="happy dog">
             </div>
-            <div class="col-md-6">
-              <div>
-                <h2>Woof <a href="https://www.youtube.com/watch?v=wl4m1Rqmq-Y" target="_blank"><span class="label label-success">Success</span></a></h2>
+            <div class="col-lg-6 col-md-6">
+              <div class="left-text">
+                <h2>Woof</h2>
                 <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
                 </p>
-            </div>
+                <h3><a href="https://www.youtube.com/watch?v=wl4m1Rqmq-Y" target="_blank"><span class="label label-success label-style">Success: Happy dog!</span></a></h3>
+              </div>
             </div>
           </div>
-          <div class="col-md-6 right">
-            <div class="col-md-6">
+          <div class="col-lg-6 col-md-6 right">
+            <div class="col-lg-6 col-md-6">
               <img class="media-object" src="images/sad_dog1.jpg" alt="sad dog">
-              <img class="media-object" src="images/sad_dog2.jpg" alt="sad dog">
-              <img class="media-object" src="images/sad_dog3.jpg" alt="sad dog">
-              <img class="media-object" src="images/sad_dog4.jpg" alt="sad dog">
+              <img class="media-object hidden-sm hidden-xs" src="images/sad_dog2.jpg" alt="sad dog">
+              <img class="media-object hidden-sm hidden-xs" src="images/sad_dog3.jpg" alt="sad dog">
+              <img class="media-object hidden-sm hidden-xs" src="images/sad_dog4.jpg" alt="sad dog">
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-6">
               <div>
-                <h2>Bark <a href="https://www.rspca.org.uk/findapet" target="_blank"><span class="label label-warning">Warning</span></a></h2>
-                <p>Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                <h2>Bark </h2>
+                <p>Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                 </p>
+                <h3><a href="https://www.rspca.org.uk/findapet" target="_blank"><span class="label label-warning label-style">Warning: Unhappy dog!</span></a></h3>
               </div>
             </div>
           </div>
@@ -96,7 +104,7 @@
         
         <div class="container">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2 bottom">
+            <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 bottom">
               <h2>Facts about Dogs</h2>
               <p>Duis convallis convallis tellus id interdum velit laoreet id donec. Cursus sit amet dictum sit amet justo donec. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Amet porttitor eget dolor morbi. Nam aliquam sem et tortor. Et magnis dis parturient montes nascetur ridiculus. Iaculis eu non diam phasellus:</p>
               <ul class="list-group">
@@ -134,12 +142,12 @@
         <div class="row"></div>
           <div class="container">
             <nav class="row pag-nav2">
-              <div class="col-md-2"><a class="footer-font" href="#">Woof</a></div>
-              <div class="col-md-2"><a class="footer-font" href="#">Bark</a></div>
-              <div class="col-md-2"><a class="footer-font" href="#">Growl</a></div>
-              <div class="col-md-2"><a class="footer-font" href="#">Whimper</a></div>
-              <div class="col-md-2"><a class="footer-font" href="#">Catch</a></div>
-              <div class="col-md-2"><p><span>                &copy; 50 Paws Recordings Ltd</span></p></div>  
+              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a class="footer-font" href="#">Woof</a></div>
+              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a class="footer-font" href="#">Bark</a></div>
+              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a class="footer-font" href="#">Growl</a></div>
+              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a class="footer-font" href="#">Whimper</a></div>
+              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><a class="footer-font" href="#">Catch</a></div>
+              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><p><span>                &copy; 50 Paws Recordings Ltd</span></p></div>  
             </nav>
           </div>
         </nav>
