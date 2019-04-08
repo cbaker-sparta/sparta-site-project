@@ -8,7 +8,7 @@ Project specifications were to use Bootstrap to style a responsive and scalable 
 
 The layout of the navbar and header was consistent across all pages:
 
-![screenshot of index page header](sparta-site-project/dog-site/screenshots/index_screenshot.png)
+![screenshot of index page header](dog-site/screenshots/index_screenshot.png)
 
 The navbar has collapsable functionality while also having some other CSS styling applied, such as the use of `:hover` and the application of inversion, which can be seen in the image and code below. The page and navbar also scales correctly for all screen sizes as seen below:
 
